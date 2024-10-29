@@ -1,0 +1,61 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  width: 350px;
+  background-color: #fed76f;
+}
+
+h1 { 
+	font-weight: 400;
+     color: #333;
+     font-size: 60px;
+     font-family: "Lucida Console", "Courier New", monospace;
+	 text-align: center;
+	 }
+	 
+
+
+h2 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; }
+
+ul {
+	text-align: center;
+	}
+	
+li {
+    font-size: 30px;
+}
+.bigFont{
+	font-size: 32px;
+}
+.centered-list {
+    list-style-position: inside;
+}
+	
+
+.centered-images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 400px;
+}
+#specialStyle {
+	width:30%;
+	border: 2px solid red;
+	background-color: yellow;
+}
+.photo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 columns */
+            gap: 50px; /* Space between photos */
+            max-width: 1000px; /* Adjust to your preference */
+            margin: auto; /* Center the grid */
+        }
+
+        /* Styling for each photo */
+        .photo-grid img {
+            width: 100%;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        }
